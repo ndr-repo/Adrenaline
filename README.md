@@ -1,4 +1,4 @@
-# Adrenaline - crawl web applications from source code reverse engineering
+# Adrenaline - Source Code Reverse Engineering
 
 ## Usage
 ```
