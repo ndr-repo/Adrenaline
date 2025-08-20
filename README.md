@@ -1,7 +1,7 @@
 # Adrenaline - Source Code Reverse Engineering Framework 
 **Not another ```<a href>``` tag crawler.** 
 
-Adrenaline matches URI paths via regex from source code and crawls the web application from matched paths. Banners are saved to ```Adrenaline/log/hrefTrace/:<domainName>```. 
+Adrenaline matches URI paths via regex from source code and crawls the web application from matched paths. Banners are saved to ```Adrenaline/log/hrefTrace/:domainName```. 
 
 Created to save time when performing black-box web application security tests & API reverse engineering. Great for testing proprietary or undocumented applications & APIs. 
 
