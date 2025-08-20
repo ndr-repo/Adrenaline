@@ -67,8 +67,8 @@ def main():
             get_response = requests.get(full_url, headers=headers, verify=False, allow_redirects=True, timeout=10)
             for key, value in get_response.headers.items():        
                 bannerlog = str(banners)
-                with open(bannerlog,  "w") as l:
-                    l.write(f"{full_url}: {key}: {value}")
+                with open(bannerlog,  "a") as l:
+                    l.write(f"{full_url}: {key}: {value}\n")
         except requests.RequestException as e:
             print(f"Error checking {full_url}: {e}", file=sys.stderr)
         if len(f"{path}") > 2:
